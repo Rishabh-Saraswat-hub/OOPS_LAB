@@ -1,23 +1,26 @@
 #include <iostream>
 using namespace std;
 
-class Demo {
+class Demo1 {
 public:
-    Demo() {
-        cout << "Constructor called" << endl;
+    Demo1() {
+        cout << "Demo1 Constructor called" << endl;
     }
 
-    ~Demo() {
-        cout << "Destructor called" << endl;
+    ~Demo1() {
+        cout << "Demo1 Destructor called" << endl;
     }
+};
 
-    void show() {
-        cout << "Inside member function" << endl;
+class Demo2 {
+public:
+    Demo2() {
+        cout << "Demo2 Constructor called" << endl;
     }
 };
 
 int main() {
-    Demo obj;
-    obj.show();
+    Demo1 obj1;
+    Demo2 obj2;
     return 0;
 }
