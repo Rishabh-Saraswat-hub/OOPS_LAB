@@ -58,7 +58,6 @@ int main() {
     lib.addBook("OOP", "Stroustrup", "104");
     lib.addBook("DBMS", "Korth", "105");
     lib.displayBooks();
-    // Remove one book
     string removeISBN = "103";
     if (lib.removeBook(removeISBN))
         cout << "\nBook removed successfully!\n";
