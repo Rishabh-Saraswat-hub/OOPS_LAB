@@ -1,7 +1,8 @@
 #include <iostream>
 using namespace std;
-void swap(int a , int b){
-    int temp =  a ;
+template <class T> ;
+void swap( T a , T b){
+   T temp =  a ;
     a=b;
     b=temp;
     cout<<"New value of a is : "<< a<< endl;
